@@ -80,7 +80,7 @@ module.exports = {
         redirects: [
           {
             from: '/',
-            to: '/showcase',
+            to: '/showcase/',
           },
         ],
       },
