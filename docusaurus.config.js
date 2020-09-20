@@ -21,13 +21,13 @@ module.exports = {
           label: 'Showcase',
           position: 'left',
         },
-        {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
         { to: 'blog', label: 'Blog', position: 'left' },
+        {
+          to: '/community/support',
+          label: 'Community',
+          position: 'left',
+          activeBaseRegex: `/community/`,
+        },
         {
           href: 'https://github.com/JuliaJueun/welcome-ainizer',
           position: 'right',
@@ -77,6 +77,18 @@ module.exports = {
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html'],
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        editUrl: 'https://github.com/JuliaJueun/welcome-ainizer',
+        routeBasePath: 'community',
+        // sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
       },
     ],
   ]
