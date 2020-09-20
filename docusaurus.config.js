@@ -44,7 +44,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} JuliaJueun, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Julia X Hanjeong. Built with Docusaurus.`,
     },
   },
   presets: [
