@@ -1300,29 +1300,19 @@
     "@docusaurus/utils" "2.0.0-alpha.64"
     react-json-view "^1.19.1"
 
-"@docusaurus/plugin-google-analytics@2.0.0-alpha.64":
+"@docusaurus/plugin-google-analytics@2.0.0-alpha.64", "@docusaurus/plugin-google-analytics@^2.0.0-alpha.64":
   version "2.0.0-alpha.64"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.64.tgz#c0e0a7cf1ec457a07a90be9593f823a432e264ab"
   integrity sha512-WiyF+OQYo/PqM376BObA5Js9eDAlYD4rMf3D7B59WKpCg+f532EABFFuurgkHAE7O73j6bbCpQ5HuunOgxvpDw==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.64"
 
-"@docusaurus/plugin-google-analytics@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-analytics/-/plugin-google-analytics-2.0.0-alpha.37.tgz#e546bf61b35d4abd7e65bb9c4f6c02ba5c2297e3"
-  integrity sha512-RCR2UHL6OyYSupRxVn0x4PBJf4VJ1Xob/5Ps0ang915KfrUjLh51aXtvtx3SlRqsMJQt0aS/K5RFsPrpyfP38g==
-
-"@docusaurus/plugin-google-gtag@2.0.0-alpha.64":
+"@docusaurus/plugin-google-gtag@2.0.0-alpha.64", "@docusaurus/plugin-google-gtag@^2.0.0-alpha.64":
   version "2.0.0-alpha.64"
   resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.0.0-alpha.64.tgz#18b3ff00b7151b8943443b231816dafd94198918"
   integrity sha512-5wz4ciVBXKHyz5kkyDaDLAoSSMabuNBW413hDjh0CD4JdhJzyADW6FKypTx1dd3wELsEOUFWE+ltkKI/AA1cog==
   dependencies:
     "@docusaurus/core" "2.0.0-alpha.64"
-
-"@docusaurus/plugin-google-gtag@^2.0.0-alpha.37":
-  version "2.0.0-alpha.37"
-  resolved "https://registry.yarnpkg.com/@docusaurus/plugin-google-gtag/-/plugin-google-gtag-2.0.0-alpha.37.tgz#3bf992e2722fcd71afac5bb7df49824eb191d186"
-  integrity sha512-TyAtMSpFstDFQ/O95wsHfoZ8T4x0plsCCFDRk3NK0soXz7qtAbk+Rnxu6TCcfruvL/MPW4197NQxR69u3ivTsA==
 
 "@docusaurus/plugin-ideal-image@^2.0.0-alpha.64":
   version "2.0.0-alpha.64"
@@ -1349,7 +1339,7 @@
     fs-extra "^8.1.0"
     sitemap "^3.2.2"
 
-"@docusaurus/preset-classic@2.0.0-alpha.64":
+"@docusaurus/preset-classic@^2.0.0-alpha.64":
   version "2.0.0-alpha.64"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-alpha.64.tgz#ce141f909a2071cf7b2736a3c35d9eb6226d61e2"
   integrity sha512-j2L7WzLXRLQyDub/hALNZGfL/mNMuMpG+GhWgfHWi/Fb8BRppGMikVp9VqrnlJ8D8OWhkkVcruUkjFO0ODfXmQ==
