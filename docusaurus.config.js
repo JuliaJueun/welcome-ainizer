@@ -7,7 +7,13 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'JuliaJueun', // Usually your GitHub org/user name.
   projectName: 'welcome-ainizer', // Usually your repo name.
-  themeConfig: {
+  themeConfig: { 
+    googleAnalytics: {
+      trackingID: 'UA-120727651-12',
+    },
+    gtag: {
+      trackingID: 'UA-120727651-12',
+    },
     navbar: {
       title: '',
       logo: {
@@ -64,6 +70,8 @@ module.exports = {
     ],
   ],
   plugins: [
+    ['@docusaurus/plugin-google-analytics'],
+    ['@docusaurus/plugin-google-gtag'],
     [
       '@docusaurus/plugin-ideal-image',
       {
