@@ -77,12 +77,6 @@ module.exports = {
       '@docusaurus/plugin-client-redirects',
       {
         fromExtensions: ['html'],
-        redirects: [
-          {
-            from: '/',
-            to: '/showcase/',
-          },
-        ],
       },
     ],
   ]

@@ -1,7 +1,8 @@
-import Showcase from './showcase/index'
+import React from 'react'
+import { Redirect } from '@docusaurus/router';
 
 function Home() {
-  return Showcase();
+  return <Redirect to="/showcase" />;
 }
 
 export default Home;
