@@ -2,10 +2,10 @@
 slug: CDP후기2
 title: Ainize를 이용하여 편하게 배포하기
 author: Chioh Song
-author_title: SW Engineer @
+author_title: ML Engineer @Linewalks
 author_url: https://velog.io/@woomurf/Common-Computer-Summer-Internship-%ED%9B%84%EA%B8%B0
 author_image_url: https://tistory2.daumcdn.net/tistory/2875113/attach/a318fa1f08e74c8e9d8c1d6e04d7f122
-tags: [Common Computer, intern, ainizer]
+tags: [Common Computer, Common Computer Developer Playgroud, CDP, Ainizer]
 ---
 
 "부제가 공짜로 서비스 배포하기이다. 그렇다 오늘은 공짜로 서비스를 배포하는 방법에 대해 소개한다. 어떻게 공짜로 서비스를 배포하는 법을 알게 되었는가? 바로 CDP를 하면서 알게 되었다."
