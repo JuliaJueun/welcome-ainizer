@@ -40,12 +40,17 @@ function Showcase() {
                       <small className="avatar__subtitle">
                         {user.description}
                       </small>
-                      <small className="avatar__subtitle tag">{user.tag}</small>
                     </div>
                   </div>
                 </div>
                 {(user.website || user.source) && (
                   <div className="card__footer">
+                    <div className={clsx(styles.tags)}>
+                      {user.tags.map((tag) => (
+                        <div className={clsx(styles.tag)}>{tag}</div>
+                      ))}
+                    </div>
+                    <br />
                     <div className="button-group button-group--block">
                       {user.website && (
                         <a
@@ -73,7 +78,7 @@ function Showcase() {
           ))}
         </div>
       </main>
-    </Layout>
+    </Layout >
   );
 }
 
