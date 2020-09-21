@@ -7,7 +7,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'JuliaJueun', // Usually your GitHub org/user name.
   projectName: 'welcome-ainizer', // Usually your repo name.
-  themeConfig: { 
+  themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-120727651-12',
     },
@@ -28,12 +28,12 @@ module.exports = {
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
-        {
-          to: '/community/support',
-          label: 'Community',
-          position: 'left',
-          activeBaseRegex: `/community/`,
-        },
+        // {
+        //   to: '/community/support',
+        //   label: 'Community',
+        //   position: 'left',
+        //   activeBaseRegex: `/community/`,
+        // },
         {
           href: 'https://github.com/JuliaJueun/welcome-ainizer',
           position: 'right',
