@@ -2,7 +2,7 @@
 slug: CDP후기1
 title: Comcom Dev Playground 시즌 1 활동 후기
 author: Gabin Jeon
-author_title: SW Engineer @Kakao Enterprise
+author_title: SW Engineer
 author_url: https://hyanghope.tistory.com/552
 author_image_url: https://avatars0.githubusercontent.com/u/26132534?s=400&u=e5b76bebb05c2ea1b7a82c518d0915b93304de47&v=4
 tags: [Common Computer, Common Computer Developer Playgroud, CDP, Ainizer]
