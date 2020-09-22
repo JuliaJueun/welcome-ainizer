@@ -10,4 +10,4 @@ tags: [Common Computer, Common Computer Developer Playgroud, CDP, Ainizer]
 
 "배포하면서 느낀 점은 설명 그대로 도커파일만 만들면 알아서 오픈소스를 배포할 수 있어서 좋았습니다. 특히 저는 제가 만든 오픈소스들을 서버 비용없이 배포하여서 누군가에게 공유될 수 있다는 점이 제일 좋았습니다."
 
-[** → Read more**](https://hyanghope.tistory.com/552)
+[** → 전체 내용 보기 **](https://hyanghope.tistory.com/552)
