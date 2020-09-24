@@ -28,7 +28,7 @@ slug: /support
 
 Ainizer들은 오픈소스 생태계에 기여할 수 있는 오픈소스 프로젝트들을 찾아 Ainize에 배포하여, 사람들이 바로 쓸 수 있는 서비스로 만들기도 합니다. 오픈소스 세상에서 보물을 찾는 사람들이라는 이미지가 떠오르도록 "Treasure Hunter, Ainizer"라고도 합니다. 그래서 showcase에 있는 프로젝트를 실행시켜보면, 아래의 이미지처럼 우측 하단에 도장이 꽉 찍혀있답니다. 예쁘죠?
 <div class="hi">
-  <img src="../static/img/Ainizer_3.png" width="85%" />
+  <img src="/img/Ainizer_3.png" width="85%" />
 </div><br/>
 
 
@@ -36,7 +36,7 @@ Ainizer들은 오픈소스 생태계에 기여할 수 있는 오픈소스 프로
 
 
 <div class="hi">
-  <img src="../static/img/Ainizer_1.png" width="85%" />
+  <img src="/img/Ainizer_1.png" width="85%" />
 </div>
 
 <br/>
