@@ -32,7 +32,7 @@ Ainizer들은 오픈소스 생태계에 기여할 수 있는 오픈소스 프로
 </div><br/>
 
 
-확인해보니, 벌써 많은 프로젝트들이 모였더라고요. 그래서 이 사이트를 만들었습니다.<br/>Ainizers' 프로젝트 모음집! Showcase! (왜 영어로 하니 더 있어보이는 느낌이 드는거죠?)<br/>앞서 언급했듯이, Ainizer는 누구나 될 수 있습니다. 야, 너도 할 수 있어! Ainizer! 
+확인해보니, 벌써 많은 프로젝트들이 모였더라고요. 그래서 이 사이트를 만들었습니다.<br/>Ainizers' 프로젝트 모음집! Showcase! (왜 영어로 하니 더 있어보이는 느낌이 드는거죠?)<br/>앞서 언급했듯이, Ainizer는 누구나 될 수 있습니다. 야, 너도 할 수 있어. Ainizer! 
 
 
 <div class="hi">
@@ -43,7 +43,7 @@ Ainizer들은 오픈소스 생태계에 기여할 수 있는 오픈소스 프로
 
 ## Ainizer, 나도 하고싶다!
 
-여러분과 함께 성장하는 커뮤니티를 만들고자 합니다. Ainizer가 되고 싶다면? Ainize에 대해 궁금한 점이 있다면? 다양한 질의응답이 오가는 슬랙 커뮤니티에 들어오세요. 언제든지 질문하고, 다른 Ainizer들과 소통해보세요! 
+여러분과 함께 성장하는 커뮤니티를 만들고자 합니다. Ainizer가 되고 싶다면, Ainize에 대해 궁금한 점이 있다면? 다양한 질의응답이 오가는 슬랙 커뮤니티에 들어오세요. 언제든지 질문하고, 다른 Ainizer들과 소통해보세요. 그리고 Ainize에 바라는 점, 건의사항 등 모든 이야기를 자유롭게 나눠주세요. 이 웹사이트에 대한 조언 & 의견을 주셔도 좋습니다.
 
 
 - **AI Network Developer community [가입하기](https://join.slack.com/t/ainetwork-dev/shared_invite/zt-c89mb8z9-IqaCsNmsNLXKNylKXrJTTg)**
@@ -54,6 +54,8 @@ Ainizer들은 오픈소스 생태계에 기여할 수 있는 오픈소스 프로
 <br/>
 
 ## Ainizer 최신 소식을 들려줄 채널
+
+Ainize 가입은 다들 하셨죠? 안했다면 **Ainize [가입](https://ainize.ai/)**부터 하기!
 
 - **Facebook 계정 [팔로우&좋아요](https://www.facebook.com/ainetworkofficial)**
 
