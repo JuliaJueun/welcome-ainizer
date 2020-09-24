@@ -121,6 +121,39 @@ const users = [
     tags: ['WEB', 'API', 'AI/ML'],
   },
   {
+    title: 'Unpaired Portrait Drawing',
+    description:
+      '사진을 넣으면 초상화 스케치가 뚝딱 만들어집니다. 3가지 스타일의 스케치를 AI 화가로부터 받아보세요. 👨‍🎨',
+    preview: require('./showcase/unpaired.png'),
+    website: 'https://ainize.ai/Jeong-Hyun-Su/Unpaired-Portrait-Drawing',
+    source: 'https://github.com/Jeong-Hyun-Su/Unpaired-Portrait-Drawing',
+    fbOpenSource: false,
+    pinned: false,
+    tags: ['WEB','API','AI/ML'],
+  },
+  {
+    title: 'TensorFlow-TTS',
+    description:
+      '텍스트를 입력하면 음성 파일로 읽어주는 TTS(Text To Speech)',
+    preview: require('./showcase/tts.png'),
+    website: 'https://ainize.ai/psi1104/TensorFlowTTS?branch=server',
+    source: 'https://github.com/psi1104/TensorFlowTTS',
+    fbOpenSource: false,
+    pinned: false,
+    tags: ['WEB', 'AI/ML'],
+  },
+  {
+    title: 'Deep Speech-STT',
+    description:
+      '음성파일을 텍스트로 변환해주는 STT(Speech To Text)',
+    preview: require('./showcase/stt.png'),
+    website: 'https://ainize.ai/woomurf/STT?branch=master',
+    source: 'https://github.com/woomurf/STT',
+    fbOpenSource: false,
+    pinned: false,
+    tags: ['WEB', 'API', 'AI/ML'],
+  },
+  {
     title: 'Detectron2',
     description:
       '사진을 넣으면, 사진 안에 어떤 물체가 있는지 알려주는facebook이 만든 object detection 라이브러리입니다.',
