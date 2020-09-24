@@ -28,12 +28,12 @@ module.exports = {
           position: 'left',
         },
         { to: 'blog', label: 'Blog', position: 'left' },
-        // {
-        //   to: '/community/support',
-        //   label: 'Community',
-        //   position: 'left',
-        //   activeBaseRegex: `/community/`,
-        // },
+         {
+           to: '/community/support',
+           label: 'Community',
+           position: 'left',
+           activeBaseRegex: `/community/`,
+         },
         {
           href: 'https://github.com/JuliaJueun/welcome-ainizer',
           position: 'right',
@@ -52,16 +52,16 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          //sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/JuliaJueun/welcome-ainizer',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/JuliaJueun/welcome-ainizer',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -95,8 +95,8 @@ module.exports = {
         editUrl: 'https://github.com/JuliaJueun/welcome-ainizer',
         routeBasePath: 'community',
         // sidebarPath: require.resolve('./sidebarsCommunity.js'),
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
+        showLastUpdateAuthor: false,
+        showLastUpdateTime: false,
       },
     ],
   ]
