@@ -77,12 +77,12 @@ const users = [
     tags: ['WEB', 'API', 'AI/ML'],
   },
   {
-    title: 'Stanford NLP',
+    title: 'Stanza',
     description:
       '다양한 언어들을 지원하는 Python 자연어처리(NLP) 라이브러리입니다.',
     preview: require('./showcase/stanza.png'),
-    website: 'https://ainize.ai/gkswjdzz/ainized-stanfordnlp',
-    source: 'https://github.com/gkswjdzz/ainized-stanfordnlp',
+    website: 'https://ainize.ai/gkswjdzz/stanza',
+    source: 'https://github.com/gkswjdzz/stanza',
     fbOpenSource: false,
     pinned: false,
     tags: ['API', 'AI/ML'],
