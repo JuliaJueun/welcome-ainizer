@@ -10,6 +10,7 @@ module.exports = {
   themeConfig: {
     googleAnalytics: {
       trackingID: 'UA-120727651-12',
+      image: 'img/og_img.png',
     },
     gtag: {
       trackingID: 'UA-120727651-12',
