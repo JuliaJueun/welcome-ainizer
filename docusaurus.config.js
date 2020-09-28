@@ -36,7 +36,7 @@ module.exports = {
         //    activeBaseRegex: `/community/`,
         //  },
         {
-          href: 'https://github.com/JuliaJueun/welcome-ainizer',
+          href: 'https://github.com/JuliaJueun/welcome-ainizer/tree/global',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
