@@ -28,13 +28,13 @@ module.exports = {
           label: 'Showcase',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
-         {
-           to: '/community/support',
-           label: 'Community',
-           position: 'left',
-           activeBaseRegex: `/community/`,
-         },
+        // { to: 'blog', label: 'Blog', position: 'left' },
+        //  {
+        //    to: '/community/support',
+        //    label: 'Community',
+        //    position: 'left',
+        //    activeBaseRegex: `/community/`,
+        //  },
         {
           href: 'https://github.com/JuliaJueun/welcome-ainizer',
           position: 'right',
@@ -45,7 +45,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Julia X Hanjeong.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Julia X Hanjeong, Common Computer Inc.`,
     },
   },
   presets: [

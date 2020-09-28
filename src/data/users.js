@@ -3,7 +3,7 @@ const users = [
   {
     title: 'BERT as a Service',
     description:
-      '구글에서 개발한 자연어처리(NLP) 모델 BERT를 sentence encoder로 사용하여, 단 2줄의 코드만으로 input 문장을 고정된 길이의 벡터값으로 변환해줍니다.',
+      'It uses BERT as a sentence encoder and hosts it as a service, allowing you to map sentences into fixed-length representations in just two lines of code.',
     preview: require('./showcase/bert.png'),
     website: 'https://ainize.ai/gkswjdzz/bert-as-service',
     source: 'https://github.com/gkswjdzz/Bert-as-service',
@@ -12,12 +12,12 @@ const users = [
     tags: ['WEB', 'API', 'AI/ML'],
   },
   {
-    title: 'KoNLPy-gRPC',
+    title: 'Face Mask Detector',
     description:
-      'KoNLPy(코엔엘파이)는 한국어 정보처리를 위한 파이썬 패키지입니다. 한국어 토큰화, 형태소 분석 등 다양한 곳에 자유롭게 이용해보세요.',
-    preview: require('./showcase/konlpy.png'),
-    website: 'https://ainize.ai/minhoryang/KoNLPy-gRPC',
-    source: 'https://github.com/minhoryang/KoNLPy-gRPC',
+      'Wear a MASK! AI will detect a face and recognize whether a person is wearing a face mask or not. 😷',
+    preview: require('./showcase/facemask.png'),
+    website: 'https://ainize.ai/woomurf/FaceMaskDetection?branch=master',
+    source: 'https://github.com/woomurf/FaceMaskDetection',
     fbOpenSource: false,
     pinned: false,
     tags: ['WEB', 'API', 'AI/ML'],
@@ -25,7 +25,7 @@ const users = [
   {
     title: 'StarGAN-V2',
     description:
-      'Clova AI의 StarGAN-v2입니다. 사진 한 장만 넣으면 똑똑한 GAN 모델과 함께 머리색, 피부, 성별까지 다양한 스타일로 변신!',
+      'StarGAN v2: Diverse Image Synthesis for Multipe Domains. (Image-to-image translation model)',
     preview: require('./showcase/stargan.png'),
     website: 'https://ainize.ai/psi1104/stargan-v2',
     source: 'https://github.com/psi1104/stargan-v2',
@@ -36,7 +36,7 @@ const users = [
   {
     title: 'DeOldify',
     description:
-      '인공지능을 이용해 흑백 사진을 컬러 사진로 변환해주는 프로젝트입니다.',
+      'A Deep Learning based project for colorizing and restoring monochrome/old images.',
     preview: require('./showcase/deoldify.png'),
     website: 'https://ainize.ai/kmswlee/DeOldify',
     source: 'https://github.com/kmswlee/DeOldify',
@@ -47,7 +47,7 @@ const users = [
   {
     title: 'HiDT',
     description:
-      '내가 낮에 갔던 관광지는 아침이나 새벽에는 어떤 모습일까? 풍경 사진 한 장만 넣으면 여러 시간대로 변환해주는 HiDT!',
+      'High-resolution Daytime Traslation without domain labels.',
     preview: require('./showcase/hidt.png'),
     website: 'https://ainize.ai/psi1104/HiDT?branch=master',
     source: 'https://github.com/psi1104/HiDT',
@@ -55,20 +55,20 @@ const users = [
     pinned: false,
     tags: ['WEB', 'API', 'AI/ML'],
   },
-  {
-    title: '랜선 사진관',
-    description:
-      '두 ML 프로젝트(DeOldify, HiDT)의 API들을 합쳐 "랜선사진관"이라는 하나의 서비스로 만들다!',
-    preview: require('./showcase/photobooth.png'),
-    website: 'https://puter.kim/studiolan',
-    fbOpenSource: false,
-    pinned: false,
-    tags: ['WEB', 'NO CODE'],
-  },
+  // {
+  //   title: '랜선 사진관',
+  //   description:
+  //     '두 ML 프로젝트(DeOldify, HiDT)의 API들을 합쳐 "랜선사진관"이라는 하나의 서비스로 만들다!',
+  //   preview: require('./showcase/photobooth.png'),
+  //   website: 'https://puter.kim/studiolan',
+  //   fbOpenSource: false,
+  //   pinned: false,
+  //   tags: ['WEB', 'NO CODE'],
+  // },
   {
     title: 'Cartoonize',
     description:
-      'Cartoonize your world! 얼굴, 풍경 사진/영상 무엇이든 만화처럼 바꿔주는 프로젝트입니다.',
+      'Cartoonize your world with this cool application of GAN. It works both images and videos.',
     preview: require('./showcase/cartoonize.png'),
     website: 'https://ainize.ai/psi1104/White-box-Cartoonization?branch=master',
     source: 'https://github.com/psi1104/White-box-Cartoonization',
@@ -77,20 +77,31 @@ const users = [
     tags: ['WEB', 'API', 'AI/ML'],
   },
   {
-    title: 'Stanford NLP',
+    title: 'Stanza (NLP)',
     description:
-      '다양한 언어들을 지원하는 Python 자연어처리(NLP) 라이브러리입니다.',
+      'Stanza: a Python NLP library for many human languages.',
     preview: require('./showcase/stanza.png'),
-    website: 'https://ainize.ai/gkswjdzz/ainized-stanfordnlp',
-    source: 'https://github.com/gkswjdzz/ainized-stanfordnlp',
+    website: 'https://ainize.ai/gkswjdzz/stanza',
+    source: 'https://github.com/gkswjdzz/stanza',
     fbOpenSource: false,
     pinned: false,
     tags: ['API', 'AI/ML'],
   },
   {
+    title: 'KoNLPy-gRPC',
+    description:
+      'KoNLPy is Natural Language Proessing Toolkit and Python package for Korean NLP. ',
+    preview: require('./showcase/konlpy.png'),
+    website: 'https://ainize.ai/minhoryang/KoNLPy-gRPC',
+    source: 'https://github.com/minhoryang/KoNLPy-gRPC',
+    fbOpenSource: false,
+    pinned: false,
+    tags: ['WEB', 'API', 'AI/ML'],
+  },
+  {
     title: 'PIFuHD',
     description:
-      '3D 스캐너가 따로 필요 없다! 사진 속 인물을 3D로 만들어주는 프로젝트입니다.',
+      'Multi-level Pixel-aligned Implicit Function for high-resolution 3D human digitalization. (CVPR 2020)',
     preview: require('./showcase/pifuhd.png'),
     website: 'https://master-pifuhd-psi1104.endpoint.ainize.ai',
     source: 'https://github.com/psi1104/pifuhd',
@@ -101,7 +112,7 @@ const users = [
   {
     title: 'Question Generation',
     description:
-      '아래 문장을 넣으면 AI는 어떤 질문과 답변을 만들어낼까요? "Pythonista 여러분, 올해 PyCon은 online으로 진행됩니다."',
+      'It generates Questions and answers with pre-trained transformers from a text paragraph. 📝',
     preview: require('./showcase/qageneration.png'),
     website: 'https://ainize.ai/Wook-2/question_generation?branch=master',
     source: 'https://github.com/Wook-2/question_generation',
@@ -112,7 +123,7 @@ const users = [
   {
     title: 'Easy OCR',
     description:
-      '사진 안의 글자를 텍스트로 바로 추출, 변환해주는 Easy OCR의 문자 인식 기능을 지금 바로 사용해보세요!',
+      'Convert images to text with Easy OCR! Just upload your picture and wait for a while.',
     preview: require('./showcase/easyocr.png'),
     website: 'https://ainize.ai/Wook-2/EasyOCR?branch=master',
     source: 'https://github.com/Wook-2/EasyOCR',
@@ -123,7 +134,7 @@ const users = [
   {
     title: 'Unpaired Portrait Drawing',
     description:
-      '사진을 넣으면 초상화 스케치가 뚝딱 만들어집니다. 3가지 스타일의 스케치를 AI 화가로부터 받아보세요. 👨‍🎨',
+      'This project generates artistic portrait drawings from face photos using a GAN-based model. 👨‍🎨',
     preview: require('./showcase/unpaired.png'),
     website: 'https://ainize.ai/Jeong-Hyun-Su/Unpaired-Portrait-Drawing',
     source: 'https://github.com/Jeong-Hyun-Su/Unpaired-Portrait-Drawing',
@@ -134,7 +145,7 @@ const users = [
   {
     title: 'TensorFlow-TTS',
     description:
-      '텍스트를 입력하면 음성 파일로 읽어주는 TTS(Text To Speech)',
+      'Real-time state-of-the-art speech synthesis architectures based-on TensorFlow 2. (Text to Speech)',
     preview: require('./showcase/tts.png'),
     website: 'https://ainize.ai/psi1104/TensorFlowTTS?branch=server',
     source: 'https://github.com/psi1104/TensorFlowTTS',
@@ -145,7 +156,7 @@ const users = [
   {
     title: 'Deep Speech-STT',
     description:
-      '음성파일을 텍스트로 변환해주는 STT(Speech To Text)',
+      "An open source Speech-to-Text engine using a model trained by ML techniuqes based on Baidu's Deep Speech research papaer.",
     preview: require('./showcase/stt.png'),
     website: 'https://ainize.ai/woomurf/STT?branch=master',
     source: 'https://github.com/woomurf/STT',
@@ -156,7 +167,7 @@ const users = [
   {
     title: 'Detectron2',
     description:
-      '사진을 넣으면, 사진 안에 어떤 물체가 있는지 알려주는facebook이 만든 object detection 라이브러리입니다.',
+      "Facebook AI research's next generation software system that implements state-of-the-art ojbect detection algorithm.",
     preview: require('./showcase/detectron.png'),
     website: 'https://ainize.ai/gkswjdzz/ainized-detectron2',
     source: 'https://github.com/gkswjdzz/ainized-detectron2',
@@ -167,7 +178,7 @@ const users = [
   {
     title: 'COVID-19 Board',
     description:
-      'COVID-19 대시보드를 통해 국내외 코로나 발생 현황을 한눈에 파악해보세요.',
+      'A global dashboard providing COVID-19 spread status. Data provided by Johns Hopkins Univ. ',
     preview: require('./showcase/covidboard.png'),
     website: 'https://ainize.ai/soaple/corona-board',
     source: 'https://github.com/soaple/corona-board',
@@ -178,7 +189,7 @@ const users = [
   {
     title: 'U-GAT-IT',
     description:
-      '사람 얼굴을 애니메이션 캐릭터로 실시간 변환해주는 AI입니다. 단 한 번의 클릭으로 Anime 2D 스타일로 짠! 하고 변신!',
+      'Turn your selfie into an anime character! Unsupervised generative attentional networks with adaptive layer-instance normalization for image-to-image translation.',
     preview: require('./showcase/ugatit.png'),
     website: 'https://ainize.ai/kmswlee/UGATIT',
     source: 'https://github.com/kmswlee/UGATIT',
@@ -189,7 +200,7 @@ const users = [
   {
     title: 'My QR',
     description:
-      '나만의 특별한 QR 코드를 만들고 사용해보세요. 다양한 색상, 이미지, 움직이는 gif파일까지 모두 가능!',
+      'Create and get your own QR Codes now! You can make it colorized, artistic or animated. ',
     preview: require('./showcase/myqr.png'),
     website: 'https://ainize.ai/woomurf/qrcode',
     source: 'https://github.com/woomurf/qrcode',
@@ -199,8 +210,7 @@ const users = [
   },
   {
     title: 'Nyam Nyam',
-    description:
-      '아직도 뭐 먹을지 고민하세요? 메뉴 결정부터 가까운 식당 추천까지 냠냠이 다- 정해드릴게요. 😋',
+    description: "Having trouble exploring today's lunch menu? Here's the best solution! (only for Korean) 😋",
     preview: require('./showcase/nyamnyam.png'),
     website: 'https://ainize.ai/shyun-comcom/lunch-decision-maker',
     source: 'https://github.com/shyun-comcom/lunch-decision-maker',
@@ -211,7 +221,7 @@ const users = [
   {
     title: 'Crowdy',
     description:
-      '잠깐! 코로나19(COVID-19) 감염 위험을 Crowdy와 함께 줄여보세요. 나가기 전 마트, 병원, 약국, 식당, 카페 등 혼잡도를 실시간으로 확인할 수 있습니다.',
+      'A real-time map displays crowdedness of nearby stores to minimize COVID19 risks.',
     preview: require('./showcase/crowdy.png'),
     website: 'https://ainize.ai/ainize-team2/crowdy',
     source: 'https://github.com/ainize-team2/crowdy',
@@ -222,7 +232,7 @@ const users = [
   {
     title: 'Python Level Challenge',
     description:
-      'Pythonista!! 몇 가지 퀴즈를 통해 나의 파이썬 레벨을 알아보세요! 참고로 저는 문어가.. 흠흠 🐙',
+      'A quick test for Python developers to check your knowledge level. Challenge your friends!',
     preview: require('./showcase/plc.png'),
     website: 'https://ainize.ai/ainize-team1/python-level-challenge',
     source: 'https://github.com/ainize-team1/python-level-challenge',

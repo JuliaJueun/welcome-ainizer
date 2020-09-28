@@ -16,7 +16,7 @@ import users from '../../data/users';
 
 const TITLE = 'Showcase';
 const DESCRIPTION =
-  'Ainizer들이 직접 배포한 다양한 오픈소스 프로젝트들입니다. 👩‍💻 👨‍💻';
+  'Welcome to Ainizer Showcase! Enjoy! 👩‍💻 👨‍💻';
 
 function Showcase() {
   return (
