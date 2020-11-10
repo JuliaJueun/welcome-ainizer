@@ -1,6 +1,17 @@
 const users = [
   // Please add in alphabetical order of title.
   {
+    title: 'Face Mask Detector',
+    description:
+      "사람들이 마스크를 '잘' 착용했는지를 판별해주는 모델입니다. 턱스크까지도 정확히 발견해서 'No Mask'라고 판별한답니다. 😷",
+    preview: require('./showcase/facemask.png'),
+    website: 'https://ainize.ai/woomurf/FaceMaskDetection',
+    source: 'https://github.com/woomurf/FaceMaskDetection',
+    fbOpenSource: false,
+    pinned: false,
+    tags: ['WEB', 'API', 'AI/ML'],
+  },
+  {
     title: 'BERT as a Service',
     description:
       '구글에서 개발한 자연어처리(NLP) 모델 BERT를 sentence encoder로 사용하여, 단 2줄의 코드만으로 input 문장을 고정된 길이의 벡터값으로 변환해줍니다.',
@@ -36,7 +47,7 @@ const users = [
   {
     title: 'DeOldify',
     description:
-      '인공지능을 이용해 흑백 사진을 컬러 사진로 변환해주는 프로젝트입니다.',
+      '오래된 흑백 사진에 새 생명을? 인공지능을 이용해 흑백 사진을 컬러 사진로 변환해주는 프로젝트입니다.',
     preview: require('./showcase/deoldify.png'),
     website: 'https://ainize.ai/kmswlee/DeOldify',
     source: 'https://github.com/kmswlee/DeOldify',
